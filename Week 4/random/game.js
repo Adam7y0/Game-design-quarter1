@@ -10,8 +10,12 @@ colors[2] = `green`
 
 //Create an instance of the GameObject class
 var box0 = new GameObject();
-box0.x = Math.random()*c.width
-box0.y = Math.random()*c.height
+box0.x = Math.random()*c.width //position X
+box0.y = Math.random()*c.height //position Y
+//var randomWandH = Math.random() * (high - low) + low;
+var randomWandH = Math.random() * (100 - 15) + 15;
+box0.w = randomWandH;
+box0.h = randomWandH;
 
 //Generate a random color
 box0.color = colors[Math.round(Math.random()*2)];

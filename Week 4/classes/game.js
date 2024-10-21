@@ -22,7 +22,7 @@ var x2 = c.width/2
 var y2 = c.height/2 + 200
 var h2 = 50
 var w2 = 50
-var color2 = `limegreen`
+var color2 = `yellow`
 var vx2 = -5
 var vy2 = 5
 
